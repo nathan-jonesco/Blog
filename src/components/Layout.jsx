@@ -11,57 +11,48 @@ import { ThemeSelector } from '@/components/ThemeSelector'
 
 const navigation = [
   {
-    title: 'Introduction',
+    title: 'Company Overview',
     links: [
-      { title: 'Getting started', href: '/' },
-      { title: 'Installation', href: '/docs/installation' },
+      { title: '💘 About Us', href: '/docs/our-story' },
+      { title: '💯 What do we do?', href: '/' },
+      { title: '📖 Our Story?', href: '/' },
     ],
   },
   {
-    title: 'Core concepts',
+    title: 'Drag Racing',
     links: [
-      { title: 'Understanding caching', href: '/docs/understanding-caching' },
-      {
-        title: 'Predicting user behavior',
-        href: '/docs/predicting-user-behavior',
-      },
-      { title: 'Basics of time-travel', href: '/docs/basics-of-time-travel' },
-      {
-        title: 'Introduction to string theory',
-        href: '/docs/introduction-to-string-theory',
-      },
-      { title: 'The butterfly effect', href: '/docs/the-butterfly-effect' },
+      { title: '🏁 How do you win?', href: '/' },
+      { title: '🛞 Tires', href: '/' },
+      { title: '🚀 Launch', href: '/' },
+      { title: '✈️ Aerodynamics', href: '/' },
+      { title: '🦿 Suspension', href: '/' },
+      { title: '💻 Engine Tuning', href: '/' },
+      { title: '🧠 Practice', href: '/' },
+      { title: '👍🏼 Trustworthy Shops', href: '/' },
     ],
   },
   {
-    title: 'Advanced guides',
+    title: 'Drifting',
     links: [
-      { title: 'Writing plugins', href: '/docs/writing-plugins' },
-      { title: 'Neuralink integration', href: '/docs/neuralink-integration' },
-      { title: 'Temporal paradoxes', href: '/docs/temporal-paradoxes' },
-      { title: 'Testing', href: '/docs/testing' },
-      { title: 'Compile-time caching', href: '/docs/compile-time-caching' },
-      {
-        title: 'Predictive data generation',
-        href: '/docs/predictive-data-generation',
-      },
+      { title: 'How do you win?', href: '/' },
+      { title: 'What do we do?', href: '/' },
+      { title: 'Our Story?', href: '/' },
     ],
   },
   {
-    title: 'API reference',
+    title: 'Autocross',
     links: [
-      { title: 'CacheAdvance.predict()', href: '/docs/cacheadvance-predict' },
-      { title: 'CacheAdvance.flush()', href: '/docs/cacheadvance-flush' },
-      { title: 'CacheAdvance.revert()', href: '/docs/cacheadvance-revert' },
-      { title: 'CacheAdvance.regret()', href: '/docs/cacheadvance-regret' },
+      { title: 'How do you win?', href: '/' },
+      { title: 'What do we do?', href: '/' },
+      { title: 'Our Story?', href: '/' },
     ],
   },
   {
-    title: 'Contributing',
+    title: 'Off-Roading',
     links: [
-      { title: 'How to contribute', href: '/docs/how-to-contribute' },
-      { title: 'Architecture guide', href: '/docs/architecture-guide' },
-      { title: 'Design principles', href: '/docs/design-principles' },
+      { title: 'How do you win?', href: '/' },
+      { title: 'What do we do?', href: '/' },
+      { title: 'Our Story?', href: '/' },
     ],
   },
 ]
@@ -103,17 +94,21 @@ function Header({ navigation }) {
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/" aria-label="Home page">
           <Logomark className="h-9 w-9 lg:hidden" />
-          <img src="/../images/logos/Official-white.png" className="h-0 lg:dark:h-16 w-auto dark:visible invisible lg:block"></img>
-          <img src="/../images/logos/Official-black.png" className="h-0 lg:h-16 dark:h-0 w-auto visible dark:invisible lg:block"></img>
+          <img
+            src="/../images/logos/Official-white.png"
+            className="invisible h-0 w-auto dark:visible lg:block lg:dark:h-16"
+          ></img>
+          <img
+            src="/../images/logos/Official-black.png"
+            className="visible h-0 w-auto dark:invisible dark:h-0 lg:block lg:h-16"
+          ></img>
         </Link>
       </div>
-      <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
-
-      </div>
+      <div className="-my-5 mr-6 sm:mr-8 md:mr-0"></div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
         <Link href="https://github.com" className="group" aria-label="GitHub">
-          <GitHubIcon className="h-6 w-6 fill-gray-400 group-hover:fill-gray-500 dark:group-hover:fill-gray-300" />
+
         </Link>
       </div>
     </header>
@@ -189,21 +184,21 @@ export function Layout({ children, title, tableOfContents }) {
     <>
       <Header navigation={navigation} />
 
-      {isHomePage }
+      {isHomePage}
 
       <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
         <div className="hidden lg:relative lg:block lg:flex-none">
           <div className="absolute inset-y-0 right-0 w-[50vw] bg-gray-50 dark:hidden" />
           <div className="absolute top-16 bottom-0 right-0 hidden h-12 w-px bg-gradient-to-t from-gray-800 dark:block" />
           <div className="absolute top-28 bottom-0 right-0 hidden w-px bg-gray-800 dark:block" />
-          <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto overflow-x-hidden py-16 pl-0.5">
+          <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto overflow-x-hidden py-8 pl-0.5">
             <Navigation
               navigation={navigation}
               className="w-64 pr-8 xl:w-72 xl:pr-16"
             />
           </div>
         </div>
-        <div className="min-w-0 max-w-2xl flex-auto px-4 py-16 lg:max-w-none lg:pr-0 lg:pl-8 xl:px-16">
+        <div className="min-w-0 max-w-2xl flex-auto px-4 py-8 lg:max-w-none lg:pr-0 lg:pl-8 xl:px-16">
           <article>
             {(title || section) && (
               <header className="mb-9 space-y-1">
