@@ -11,8 +11,6 @@ Jones Co. Automotive is a small custom car shop with a big heart. The company wa
 
 The father, who had been interested in cars since he was young, had a passion for working on cars and had been doing so for years. His son, on the other hand, had a passion for racing and had been racing since he was a teenager. Together, they had the skills and knowledge needed to make their dream a reality.
 
-[![An old rock in the desert](../public/images/people/family-jeeps.jpg "Shiprock, New Mexico by Beau Rogers")]()
-
 After years of working on cars and racing, the father and son duo decided to take the leap and start their own custom car and truck shop. They started small, working on cars in their garage and taking on small projects for friends and family. As word of mouth spread about their work, their business began to grow.
 
 Their quality workmanship and attention to detail soon caught the attention of others, and they began to work on more complex projects. They took on more staff and moved into a larger workshop, where they continued to specialize in custom cars and trucks.
