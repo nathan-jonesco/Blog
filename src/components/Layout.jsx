@@ -13,9 +13,9 @@ const navigation = [
   {
     title: 'Company Overview',
     links: [
+      { title: '👋🏼 Introduction', href: '/' },
       { title: '💘 About Us', href: '/docs/our-story' },
       { title: '💯 What do we do?', href: '/' },
-      { title: '📖 Our Story?', href: '/' },
     ],
   },
   {
@@ -107,9 +107,6 @@ function Header({ navigation }) {
       <div className="-my-5 mr-6 sm:mr-8 md:mr-0"></div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link href="https://github.com" className="group" aria-label="GitHub">
-
-        </Link>
       </div>
     </header>
   )
@@ -201,14 +198,14 @@ export function Layout({ children, title, tableOfContents }) {
         <div className="min-w-0 max-w-2xl flex-auto px-4 py-8 lg:max-w-none lg:pr-0 lg:pl-8 xl:px-16">
           <article>
             {(title || section) && (
-              <header className="mb-9 space-y-1">
+              <header className="mb-4 sm:pb-8 space-y-1">
                 {section && (
-                  <p className="font-display text-sm font-medium text-gray-500">
+                  <p className="font-display text-md font-medium text-gray-500">
                     {section.title}
                   </p>
                 )}
                 {title && (
-                  <h1 className="font-display text-3xl tracking-tight text-gray-900 dark:text-white">
+                  <h1 className="font-fugaz text-3xl text-gray-900 dark:text-white">
                     {title}
                   </h1>
                 )}
@@ -219,7 +216,7 @@ export function Layout({ children, title, tableOfContents }) {
           <dl className="mt-12 flex border-t border-gray-200 pt-6 dark:border-gray-800">
             {previousPage && (
               <div>
-                <dt className="font-display text-sm font-medium text-gray-900 dark:text-white">
+                <dt className="font-fugaz text-sm font-medium text-gray-900 dark:text-white">
                   Previous
                 </dt>
                 <dd className="mt-1">
@@ -234,8 +231,8 @@ export function Layout({ children, title, tableOfContents }) {
             )}
             {nextPage && (
               <div className="ml-auto text-right">
-                <dt className="font-display text-sm font-medium text-gray-900 dark:text-white">
-                  Next
+                <dt className="font-fugaz  text-lg font-medium text-gray-900 dark:text-white">
+                  Continue Reading
                 </dt>
                 <dd className="mt-1">
                   <Link
@@ -255,7 +252,7 @@ export function Layout({ children, title, tableOfContents }) {
               <>
                 <h2
                   id="on-this-page-title"
-                  className="font-display text-sm font-medium text-gray-900 dark:text-white"
+                  className="font-fugaz  text-sm font-medium text-gray-900 dark:text-white"
                 >
                   On this page
                 </h2>
