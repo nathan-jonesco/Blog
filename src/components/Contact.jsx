@@ -42,7 +42,7 @@ export default function Example() {
           Need Help With a Project?
         </h2>
         <p className="mt-2 text-lg leading-8 text-gray-600 dark:text-red-200">
-          If you're ready to turn your vehicle into a one-of-a-kind masterpiece,
+          If you are ready to turn your vehicle into a one-of-a-kind masterpiece,
           look no further than our family-owned custom car and truck shop.
           Contact us today to schedule a consultation and let us help you bring
           your vision to life.
