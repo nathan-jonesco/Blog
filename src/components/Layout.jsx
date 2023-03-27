@@ -19,46 +19,46 @@ const navigation = [
   {
     title: 'Company Overview',
     links: [
-      { title: '👋🏼 Introduction', href: '/' },
+      { title: '👋🏼 Introduction', href: '/not-made-yet' },
       { title: '💘 About Us', href: '/docs/our-story' },
-      { title: '💯 What do we do?', href: '/' },
+      { title: '💯 What do we do?', href: '/not-made-yet' },
     ],
   },
   {
     title: 'Drag Racing',
     links: [
-      { title: '🏁 How do you win?', href: '/' },
-      { title: '🛞 Tires', href: '/' },
-      { title: '🚀 Launch', href: '/' },
-      { title: '✈️ Aerodynamics', href: '/' },
-      { title: '🦿 Suspension', href: '/' },
-      { title: '💻 Engine Tuning', href: '/' },
-      { title: '🧠 Practice', href: '/' },
-      { title: '👍🏼 Trustworthy Shops', href: '/' },
+      { title: '🏁 How do you win?', href: '/not-made-yet' },
+      { title: '🛞 Tires', href: '/not-made-yet' },
+      { title: '🚀 Launch', href: '/not-made-yet' },
+      { title: '✈️ Aerodynamics', href: '/not-made-yet' },
+      { title: '🦿 Suspension', href: '/not-made-yet' },
+      { title: '💻 Engine Tuning', href: '/not-made-yet' },
+      { title: '🧠 Practice', href: '/not-made-yet' },
+      { title: '👍🏼 Trustworthy Shops', href: '/not-made-yet' },
     ],
   },
   {
     title: 'Drifting',
     links: [
-      { title: 'How do you win?', href: '/' },
-      { title: 'What do we do?', href: '/' },
-      { title: 'Our Story?', href: '/' },
+      { title: 'How do you win?', href: '/not-made-yet' },
+      { title: 'What do we do?', href: '/not-made-yet' },
+      { title: 'Our Story?', href: '/not-made-yet' },
     ],
   },
   {
     title: 'Autocross',
     links: [
-      { title: 'How do you win?', href: '/' },
-      { title: 'What do we do?', href: '/' },
-      { title: 'Our Story?', href: '/' },
+      { title: 'How do you win?', href: '/not-made-yet' },
+      { title: 'What do we do?', href: '/not-made-yet' },
+      { title: 'Our Story?', href: '/not-made-yet' },
     ],
   },
   {
     title: 'Off-Roading',
     links: [
-      { title: 'How do you win?', href: '/' },
-      { title: 'What do we do?', href: '/' },
-      { title: 'Our Story?', href: '/' },
+      { title: 'How do you win?', href: '/not-made-yet' },
+      { title: 'What do we do?', href: '/not-made-yet' },
+      { title: 'Our Story?', href: '/not-made-yet' },
     ],
   },
 ]
@@ -170,7 +170,7 @@ function useTableOfContents(tableOfContents) {
 
 export function Layout({ children, title, tableOfContents }) {
   let router = useRouter()
-  let isHomePage = router.pathname === '/'
+  let isHomePage = router.pathname === '/not-made-yet'
   let allLinks = navigation.flatMap((section) => section.links)
   let linkIndex = allLinks.findIndex((link) => link.href === router.pathname)
   let previousPage = allLinks[linkIndex - 1]
