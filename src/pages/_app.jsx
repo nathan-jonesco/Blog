@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { slugifyWithCounter } from '@sindresorhus/slugify'
 
 import { Layout } from '@/components/Layout'
+import Contact from '@/components/Contact.jsx'
 
 import 'focus-visible'
 import '@/styles/tailwind.css'
@@ -69,7 +70,10 @@ export default function App({ Component, pageProps }) {
       </Head>
       <Layout title={title} tableOfContents={tableOfContents}>
         <Component {...pageProps} />
+        <Contact></Contact>
       </Layout>
+
+
     </>
   )
 }

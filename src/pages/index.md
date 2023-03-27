@@ -4,11 +4,13 @@ pageTitle: 👋🏼 Hey There!
 description: Cache every single thing your app could ever do ahead of time, so your code never even has to run at all.
 ---
 
+## Welcome 👋🏼
+
 Welcome to our family-owned custom car and truck shop located in Tennessee. At our shop, we specialize in providing top-quality custom work for car and truck enthusiasts. Our team is dedicated to delivering exceptional service and workmanship that exceeds our customers' expectations.
 
-We take pride in being a family-run business that has been serving the community for {number of years} years. Our passion for customizing cars and trucks has been passed down from generation to generation, and we have developed a reputation for being one of the best in the industry.
+We take pride in being a family-run business. Our passion for customizing cars and trucks has been passed down from generation to generation, and we have developed a reputation for being one of the best.
 
-At our shop, we offer a wide range of services, including custom paint jobs, engine upgrades, interior upgrades, and suspension modifications. We use only the best materials and equipment to ensure that every job is done correctly and to the highest standards.
+At our shop, we offer a wide range of services, including engine upgrades, interior upgrades, and suspension modifications. We use only the best materials and equipment to ensure that every job is done correctly and to the highest standards.
 
 We understand that every customer has unique needs and preferences, which is why we work closely with our clients to ensure that every project is tailored to their specifications. Our goal is to bring our clients' visions to life and create a one-of-a-kind vehicle that exceeds their expectations.
 
@@ -28,7 +30,7 @@ Thank you for considering our shop for your custom car and truck needs. We look 
 
 
 
-## How it Started
+## How it Started 🌱
 
 Jones Co. Automotive is a small custom car shop with a big heart. The company was founded by a father and son duo who had a shared passion for cars and racing. Despite having their own careers, they always dreamed of owning a custom car and truck shop.
 
@@ -38,17 +40,18 @@ After years of working on cars and racing, the father and son duo decided to tak
 
 Their quality workmanship and attention to detail soon caught the attention of others, and they began to work on more complex projects. They took on more staff and moved into a larger workshop, where they continued to specialize in custom cars and trucks.
 
+## Where now? 🌲
+
 Today, Jones Co. Automotive is a thriving business that offers a wide range of services, from general maintenance and repairs to full custom builds. They have a team of skilled and experienced technicians who are passionate about cars and dedicated to providing their customers with the best possible service.
 
 At Jones Co. Automotive, the father and son team are still involved in the day-to-day running of the business. They are proud of what they have achieved and are committed to providing their customers with the highest quality workmanship and customer service.
 
 Their dedication to their craft and their customers is what sets them apart from other custom car shops. They take the time to listen to their customers' needs and work closely with them to create the car or truck of their dreams. They believe that every project is unique and deserves a personalized touch.
 
-Jones Co. Automotive understands that a car is more than just a mode of transportation. It's a reflection of the owner's personality and style. That's why they offer a wide range of customization options, from paint jobs to engine upgrades. They work closely with their clients to ensure that their vision becomes a reality.
-Jones Co. Automotive is not just a business, but a family. The father and son team have instilled a sense of camaraderie in their employees, creating a work environment that is supportive and collaborative. They believe that their employees are their greatest asset and invest in their training and development.
+## What makes us different? 😎
 
-{% callout title="Need Assistance? 💯" %}
-This is what a disclaimer message looks like. You might want to include inline `code` in it. Or maybe you’ll want to include a [link](/) in it. I don’t think we should get too carried away with other scenarios like lists or tables — that would be silly.
-{% /callout %}
+Jones Co. Automotive understands that a car is more than just a mode of transportation. It's a reflection of the owner's personality and style. That's why they offer a wide range of customization options, from paint jobs to engine upgrades. They work closely with their clients to ensure that their vision becomes a reality.
+
+Jones Co. Automotive is not just a business, but a family. The father and son team have instilled a sense of camaraderie in their employees, creating a work environment that is supportive and collaborative. They believe that their employees are their greatest asset and invest in their training and development.
 
 In conclusion, Jones Co. Automotive is a small custom car shop that has grown into a thriving business. Their commitment to quality workmanship, customer service, and employee development is what sets them apart from their competitors. If you're looking for a custom car or truck, look no further than Jones Co. Automotive. They are dedicated to making your dream a reality.

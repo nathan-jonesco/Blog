@@ -1,3 +1,9 @@
+
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { Switch } from '@headlessui/react'
+
+
+
 import { useCallback, useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
@@ -57,6 +63,12 @@ const navigation = [
   },
 ]
 
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
+
+
+
 function GitHubIcon(props) {
   return (
     <svg aria-hidden="true" viewBox="0 0 16 16" {...props}>
@@ -108,6 +120,7 @@ function Header({ navigation }) {
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
       </div>
+      
     </header>
   )
 }
@@ -293,10 +306,16 @@ export function Layout({ children, title, tableOfContents }) {
                         </ol>
                       )}
                     </li>
+                    
                   ))}
+                  
                 </ol>
               </>
             )}
+
+
+
+
           </nav>
         </div>
       </div>
