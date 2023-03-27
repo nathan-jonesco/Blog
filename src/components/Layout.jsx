@@ -1,9 +1,3 @@
-
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { Switch } from '@headlessui/react'
-
-
-
 import { useCallback, useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
@@ -107,10 +101,12 @@ function Header({ navigation }) {
         <Link href="/" aria-label="Home page">
           <Logomark className="h-9 w-9 lg:hidden" />
           <img
+            alt="Jones Co. Automotive"
             src="/../images/logos/Official-white.png"
             className="invisible h-0 w-auto dark:visible lg:block lg:dark:h-16"
           ></img>
           <img
+                      alt="Jones Co. Automotive"
             src="/../images/logos/Official-black.png"
             className="visible h-0 w-auto dark:invisible dark:h-0 lg:block lg:h-16"
           ></img>
