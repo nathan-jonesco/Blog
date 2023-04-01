@@ -41,7 +41,7 @@ export default function Example() {
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
           Need Help With a Project?
         </h2>
-        <p className="mt-2 text-lg leading-8 text-gray-600 dark:text-red-200">
+        <p className="mt-2 text-sm sm:text-lg leading-8 text-gray-600 dark:text-red-200">
           If you are ready to turn your vehicle into a one-of-a-kind masterpiece,
           look no further than our family-owned custom car and truck shop.
           Contact us today to schedule a consultation and let us help you bring
